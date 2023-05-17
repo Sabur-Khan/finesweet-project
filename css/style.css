@@ -1,0 +1,3100 @@
+
+/* ============common css start============ */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; 
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+img{
+    margin: 0;
+}
+/* =============common css end============ */
+
+/* =============navbar css start============ */
+.navbar{
+    background-color: #1C1E53;
+}
+.navbar-nav .nav-item{
+    margin: 0px 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #BBBBCB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+
+
+
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 39px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+    .search_input{
+    color: #050505;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 180px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 39px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#000000;
+    text-decoration:none;
+    }
+/* =============navbar css end============ */
+
+/* =============banner css start============ */
+
+/* .banner_background{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1C1E53;
+}
+.topdiv{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.banner-left-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.banner-left-item p {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: white;
+}
+.banner-view-btn{
+    margin-top: 50px;
+    height: 64px;
+    width: 230px;
+    border-radius: 41px;
+    text-align: center;
+    background-color: #FCD980; 
+}
+.banner-view-btn a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #1B1C2B;
+}
+.view-pricing-btn {
+    margin-top: 72px;
+    margin-left: 50px;
+}
+.view-pricing-btn a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+} */
+
+/* =============banner css end============ */
+
+
+/* =============work css start============ */
+
+#work{
+    width: 100%;
+    background-color: #F4F6FC;
+}
+.top-gaps {
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+.work-heading{
+   margin: 0 auto;
+}
+.work-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.work-heading p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 70%;
+    margin-top: 20px;
+}
+.work-heading a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+}
+.work-heading a:hover {
+    box-shadow: inset 228px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+
+
+.strategy-card {
+    padding: 11px;
+    height: 220px;
+    width: 100%;
+    border: 1px solid #dfdfdf8b;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.strategy-card:hover{
+    transition: all linear.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.strategy-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.strategy-card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938; 
+}
+
+
+/* =============work css end============ */
+
+
+/* =============View our projects css start============ */
+#our-project{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.our-project-heading .our-project-first-head h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;    
+}
+.our-project-heading .our-project-first-head a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #282938;
+       
+}
+.our-project-heading .our-project-first-head a:hover{
+    box-shadow: inset 221px 0 0 0 #54b3d6;
+    color: #fff;
+    transition: all linear .4s;
+}
+.our-project-img{
+    position: relative;
+}
+.our-project-overlay {
+    top: 0;
+    left: 0;
+    width: 68%;
+    height: 100%;
+    padding-left: 36px;
+    position: absolute;
+    transform-origin: left;
+    transition: all linear.4s;
+    transform: scaleX(0);
+    cursor: pointer;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.our-project-img:hover .our-project-overlay{
+    transform-origin: left;
+    transition: all linear.4s;
+    transform: scaleX(1);
+}
+.our-project-ovr-head h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 134px;
+}
+.our-project-ovr-head p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #FFFFFF;
+    opacity: 80%;
+    margin-top: 15px;
+}
+.our-project-ovr-head a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FCD980;
+    
+}
+.our-project-ovr-head a:hover{
+    box-shadow: inset 127px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+.our-project-img-one{
+    position: relative;
+    cursor: pointer;
+}
+.our-project-img-one-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 74px 0px 5px 34px;
+    transform: scaleX(0);
+    transform-origin: right;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.our-project-img-one:hover .our-project-img-one-overlay{
+    transform-origin: right;
+    transition: all linear.4s;
+    transform: scaleX(1);
+}
+.our-project-img-one-overlay h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    
+}
+.our-project-img-one-overlay a{
+    color: #FCD980;
+}
+.our-project-img-one-overlay a:hover {
+    box-shadow: inset 228px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+
+
+/* =============View our projects css end============ */
+
+/* =============Features css start============ */
+
+#features-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F4F6FC;
+}
+.features-heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.features-heading-two h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.features-card{
+    margin: 0 auto;
+    height: 280px;
+    width: 100%;
+    padding: 27px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.features-card:hover{
+    transition: all linear.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.features-card-detail h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.features-card-detail p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.7;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============Features css end============ */
+
+/* =============what-sayclaint css start============ */
+
+#what-sayclaint{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(244, 246, 252, 0.6);
+}
+/* .sayclint-left-cont{
+    padding: 10px;
+    width: 35%;
+} */
+.sayclint-left-cont h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.sayclint-left-cont p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+/* .sayclint-right-cont-card {
+    padding: 10px;
+    width: 65%;
+} */
+.sayclint-right-cont-card h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+.clint-icons {
+    overflow: hidden;
+    margin-top: 13px;
+    width: 29%;
+    border: 1px solid #e7e1e1;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.clint-icons h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.clint-icons span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.clint-icons img {
+    width: 65px;
+}
+.sliders-btn a{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #dfdfdf;
+    border-radius: 40px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all linear.4s;
+    background-color: #ffffff;
+}
+.sliders-btn a:hover{
+    background-color: #0d0064;
+    color: #ffffff;
+}
+.sliders-btn a i{
+    margin-top: 22px;
+}
+
+/* =============what-sayclaint css end============ */
+
+/* =============what-sayclaint css end============ */
+/* =============what-sayclaint css end============ */
+
+/* ============common css start============ */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+ul,li{
+    list-style-type: none;
+}
+img{
+    margin: 0;
+}
+/* =============common css end============ */
+
+/* =============navbar css start============ */
+.navbar{
+    background-color: #1C1E53;
+}
+.navbar-nav .nav-item{
+    margin: 0px 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #BBBBCB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+
+
+
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 39px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+    .search_input{
+    color: #050505;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 180px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 39px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#000000;
+    text-decoration:none;
+    }
+/* =============navbar css end============ */
+
+/* =============banner css start============ */
+
+.banner_background{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1C1E53;
+}
+.topdiv{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.banner-left-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.banner-left-item p {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: white;
+}
+.banner-view-btn{
+    margin-top: 50px;
+    height: 64px;
+    width: 230px;
+    border-radius: 41px;
+    text-align: center;
+    background-color: #FCD980; 
+}
+.banner-view-btn a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #1B1C2B;
+}
+.view-pricing-btn {
+	margin-top: 34px;
+	margin-left: 39px;
+}
+.view-pricing-btn a {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 101px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #ffffff;
+	display: inline-flex;
+}
+
+
+/* =============banner css end============ */
+
+
+/* =============work css start============ */
+
+#work{
+    width: 100%;
+    background-color: #F4F6FC;
+}
+.top-gap {
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+.work-heading{
+   margin: 0 auto;
+}
+.work-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.work-heading p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 70%;
+    margin-top: 20px;
+}
+.work-heading a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+}
+.work-heading a:hover {
+    box-shadow: inset 228px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+
+
+.strategy-card {
+    padding: 11px;
+    height: 220px;
+    width: 100%;
+    border: 1px solid #dfdfdf8b;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.strategy-card:hover{
+    transition: all linear.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.strategy-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.strategy-card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938; 
+}
+
+
+/* =============work css end============ */
+
+
+/* =============View our projects css start============ */
+#our-project{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.our-project-heading .our-project-first-head h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;    
+}
+.our-project-heading .our-project-first-head a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #282938;
+       
+}
+.our-project-heading .our-project-first-head a:hover{
+    box-shadow: inset 221px 0 0 0 #54b3d6;
+    color: #fff;
+    transition: all linear .4s;
+}
+.our-project-img{
+    position: relative;
+}
+.our-project-overlay {
+    top: 0;
+    left: 0;
+    width: 68%;
+    height: 100%;
+    padding-left: 36px;
+    position: absolute;
+    transform-origin: left;
+    transition: all linear.4s;
+    transform: scaleX(0);
+    cursor: pointer;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.our-project-img:hover .our-project-overlay{
+    transform-origin: left;
+    transition: all linear.4s;
+    transform: scaleX(1);
+}
+.our-project-ovr-head h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 134px;
+}
+.our-project-ovr-head p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #FFFFFF;
+    opacity: 80%;
+    margin-top: 15px;
+}
+.our-project-ovr-head a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FCD980;
+    
+}
+.our-project-ovr-head a:hover{
+    box-shadow: inset 127px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+.our-project-img-one{
+    position: relative;
+    cursor: pointer;
+}
+.our-project-img-one-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 74px 0px 5px 34px;
+    transform: scaleX(0);
+    transform-origin: right;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.our-project-img-one:hover .our-project-img-one-overlay{
+    transform-origin: right;
+    transition: all linear.4s;
+    transform: scaleX(1);
+}
+.our-project-img-one-overlay h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    
+}
+.our-project-img-one-overlay a{
+    color: #FCD980;
+}
+.our-project-img-one-overlay a:hover {
+    box-shadow: inset 228px 0 0 0 #54b3d65e;
+    transition: all linear.4s;
+    color: #ffffff;
+}
+
+
+/* =============View our projects css end============ */
+
+/* =============Features css start============ */
+
+#features-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F4F6FC;
+}
+.features-heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.features-heading-two h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.features-card{
+    margin: 0 auto;
+    height: 280px;
+    width: 100%;
+    padding: 27px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.features-card:hover{
+    transition: all linear.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-5px);
+}
+.features-card-detail h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.features-card-detail p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.7;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============Features css end============ */
+
+/* =============what-sayclaint css start============ */
+
+#what-sayclaint{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(244, 246, 252, 0.6);
+}
+/* .sayclint-left-cont{
+    padding: 10px;
+    width: 35%;
+} */
+.sayclint-left-cont h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.sayclint-left-cont p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+/* .sayclint-right-cont-card {
+    padding: 10px;
+    width: 65%;
+} */
+.sayclint-right-cont-card h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+.clint-icons {
+    overflow: hidden;
+    margin-top: 13px;
+    width: 29%;
+    border: 1px solid #e7e1e1;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.clint-icons h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.clint-icons span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.clint-icons img {
+    width: 65px;
+}
+.sliders-btn a{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #dfdfdf;
+    border-radius: 40px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all linear.4s;
+    background-color: #ffffff;
+}
+.sliders-btn a:hover{
+    background-color: #0d0064;
+    color: #ffffff;
+}
+.sliders-btn a i{
+    margin-top: 22px;
+}
+
+/* =============what-sayclaint css end============ */
+
+/* =============Frequently asked questions css start============ */
+
+#frequently-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.frequently-left-item{
+    margin: 0 auto;
+    padding: 12px;    
+}
+.frequently-left-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.frequently-left-item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+    opacity: 87%;
+}
+.accordion-titles{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: Dark blue;
+}
+.accordion-p p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 87%;
+    color: #282938;
+}
+.frequently-login-left-item{
+    width: 50%;
+    position: relative;
+}
+.frequently-login-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background-color: rgba(28, 30, 83, 0.5);
+    position: absolute;
+}
+.frequently-login-overlay h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.frequently-login-overlay p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.frequently-login-right-item{
+    width: 50%;
+    padding: 55px;
+    background-color: #1C1E53;
+}
+.frequently-login-right-item .frequently-login-right-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.frequently-login-right-item .frequently-login-right-pera{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.frequently-login-form input{
+    padding: 0px 25px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: none;
+    height: 60px;
+    color: #fff;
+    outline: none;
+}
+.frequently-login-form input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a0a0a0;
+    opacity: 99%;
+}
+.frequently-login-button{
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    color: #c9c9c9;
+    padding: 10px;
+    border-radius: 8px;
+    background: #00000007;
+}
+.frequently-login-button:hover{
+    color: #282829;
+    background: #ffffff;
+    transition: all linear.3s;
+}
+.frequently-login-form a{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.our-blog-head h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+/* =============Frequently asked questions css end============ */
+
+/* ======================Our blog css start================= */
+
+#our-blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.our-blog-main-img{
+    position: relative;
+}
+.our-blog-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1a1a835b;
+    opacity: 0;
+}
+.our-blog-card:hover .our-blog-overlay{
+    opacity: 1;
+    transition: all linear.3s;
+}
+.blog-card-text-top{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 70%;
+}
+.blog-card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.blog-card-text-bottom{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 70%;
+}
+.our-blog-card-body a{
+    color: #282938;
+}
+
+/* ======================Our blog css end================= */
+
+
+
+
+
+
+
+/* =======About Us page css start======= */
+
+
+
+/* ================About-us css start===================== */
+
+#About-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-us-left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.about-us-left h1{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us-left span{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #282938;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================About-us css end===================== */
+
+
+/* ================who-we-are css start===================== */
+
+#who-we-are{
+    padding-bottom: 100px;
+}
+.who-bg{
+    background-color: #F4F5F5;
+}
+.who-weare-left-item span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.who-weare-left-item h3{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.who-weare-left-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+.who-weare-mide-item{
+    margin: 0;
+}
+
+.who-weare-mide-item img{
+    width: 100%;
+}
+.process-follow-heading{
+    margin: 0 auto;
+}
+.process-follow-heading h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.planning-box{
+    padding: 15px;
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+.planning-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all linear.4s;
+}
+.planning-box h6{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.planning-box p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================who-we-are css end===================== */
+
+/* ================Our Mission css start===================== */
+
+#our-mission {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #EEF4FA;
+}
+.our-mission-left span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left h3{
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================Our Mission  css end===================== */
+
+/* ================working benefits  css start===================== */
+
+#working-benefits{
+    padding-bottom: 100px;
+}
+.working-benefits-head{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+.working-benefits-head h2{
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+.features-card{
+    margin: 0 auto;
+    height: 280px;
+    width: 100%;
+    padding: 27px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F4F6FC;
+}
+.features-card:hover{
+    transition: all linear.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.features-card-detail h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.features-card-detail p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.7;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.working-benefits-sub-company h3{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.working-benefits-sub-company p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* ================working benefits  css end===================== */
+
+/* ================Meet our team  css start===================== */
+
+#meet-our-team{
+    padding-bottom: 100px;
+    background-color: #F4F6FC;
+}
+.meet-our-team-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.meet-our-team-heading h2{
+    padding-top: 50px;
+}
+.our-team-card {
+    width: 100%;
+    height: 311px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 17px 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.team-image {
+    height: 168px;
+    width: 168px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    text-align: center;
+    cursor:auto;
+}
+.team-image-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+    opacity: 0;
+}
+.our-team-card:hover .team-image-overlay{
+    opacity: 1;
+    transition: all linear.3s;
+}
+
+.team-image-overlay .team-image-overlay-icon {
+    display: flex;
+    margin: 125px 45px;
+    justify-content: space-between;
+}
+.team-image-overlay .team-image-overlay-icon img{
+    margin: 5px;
+}
+.team-title-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.team-title-text h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #282938;
+    cursor: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.team-title-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    color: #282938;
+    cursor: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.see-more-button{
+    margin: 0 auto;
+    text-align: center;
+}
+.see-more-button button{
+    border: 1px solid #777777;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    color: #000000;
+}
+.see-more-button button:hover{
+    background-color: #5239FA;
+    color: #FFFFFF;
+    transition: all linear.3s;
+}
+
+/* ================Meet our team  css end===================== */
+
+/* =======about page css end======= */
+
+
+
+
+
+
+
+
+/* ==========pricing page css start======== */
+
+/* =================pricing section css start============= */
+
+#pricing-plans{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing-card-head-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.pricing-card-head-text h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.pricing-card-head-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 80%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.pricing-card-one{
+    height: 745px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #F4F6FC;
+}
+
+
+.pricing-card-one .pricing-card-top-text h3{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #282938;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+.pricing-card-one .pricing-card-top-text span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+.pricing-card-one .pricing-card-top-text h6{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+
+.pricing-card-one .pricing-card-top-text p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+.pricing-card-one .pricing-card-detail-text{
+    margin-top: 78px;
+}
+
+
+.pricing-card-one .pricing-card-detail-text a{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+
+
+.pricing-button-item {
+    height: 64px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 0;
+    border-radius: 41px;
+    background-color: #282938;
+    margin-top: 80px;
+}
+
+
+.pricing-button-item a{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F4F6FC;
+}
+
+/* =================pricing section css end============= */
+
+/* =============Frequently asked questions css start============ */
+
+#frequently-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.frequently-left-item{
+    margin: 0 auto;
+    padding: 12px;    
+}
+.frequently-left-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.frequently-left-item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+    opacity: 87%;
+}
+.accordion-titles{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: Dark blue;
+}
+.accordion-p p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 87%;
+    color: #282938;
+}
+
+/* =============Frequently asked questions css end============ */
+
+/* ==========pricing page css end======== */
+
+
+
+
+/*===========features page css start==========*/
+
+/* =============features banner css start============ */
+
+.banner_background{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1C1E53;
+}
+.topdiv{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.banner-left-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.banner-left-item p {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: white;
+}
+.banner-view-btn{
+    margin-top: 50px;
+    height: 64px;
+    width: 230px;
+    border-radius: 41px;
+    text-align: center;
+    background-color: #FCD980; 
+}
+.banner-view-btn a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #1B1C2B;
+}
+.view-pricing-btn {
+    margin-top: 72px;
+    margin-left: 50px;
+}
+.view-pricing-btn a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* =============features banner css end============ */
+
+
+/* ================working benefits  css start===================== */
+
+#working-benefits{
+    padding-bottom: 100px;
+}
+.working-benefits-head{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+.working-benefits-head h2{
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+.features-card{
+    margin: 0 auto;
+    height: 280px;
+    width: 100%;
+    padding: 27px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F4F6FC;
+}
+.features-card:hover{
+    transition: all linear.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.features-card-detail h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.features-card-detail p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.7;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.working-benefits-sub-company h3{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.working-benefits-sub-company p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* ================working benefits  css end===================== */
+
+/* ================Use Client-first css start===================== */
+
+#use-client-first{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-us-left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.about-us-left h3{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us-left span{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #282938;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================Use Client-first css end===================== */
+
+/* ================free-revision-rounds css start===================== */
+
+#free-revision-rounds {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #EEF4FA;
+}
+.our-mission-left span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left h3{
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left p{
+    width: 91%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================free-revision-rounds  css end===================== */
+
+/* ================Support css start===================== */
+
+#support {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+.our-mission-left span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left h3{
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left p{
+    width: 91%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================Support css end===================== */
+
+/* ================Support css start===================== */
+
+#quick-delivery{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: rgba(252, 217, 128, 0.1);
+}
+.our-mission-left span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us-left h3{
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.our-mission-left p{
+    width: 91%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================Support css end===================== */
+
+
+
+/* =============Frequently asked questions css start============ */
+
+#frequently-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.frequently-left-item{
+    margin: 0 auto;
+    padding: 12px;    
+}
+.frequently-left-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.frequently-left-item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2405F2;
+    opacity: 87%;
+}
+.accordion-titles{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: Dark blue;
+}
+.accordion-p p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 87%;
+    color: #282938;
+}
+
+/* =============Frequently asked questions css end============ */
+
+/*===========features page css end==========*/
+
+
+/*===========work page css start==========*/
+
+/* ==================our work part css start============== */
+
+#our-work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4F6FC;
+}
+.our-work-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-work-content span{    
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    color: #282938;
+}
+.our-work-content h2{    
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    
+}
+.our-work-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 80%;
+    color: #282938;
+}
+
+.our-work-content > .our-work-icon-part{
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.our-work-content > .our-work-icon-part i{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #000000;
+}
+
+/* ==================our work part css endt============== */
+
+
+/* ====================our all project css start==================== */
+
+#our-all-project{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.our-project-menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-project-menu-item a{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    color: #282938;
+    position: relative;
+}
+.our-project-menu-item a::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    background-color: #2405F2;
+}
+.our-project-menu-item a:hover::after{
+    opacity: 1;
+    width: 100%;
+    transition: all linear.4s;
+}
+.our-project-menu-item a:hover{
+    transition: all linear.4s;
+    color: #2405F2;
+}
+.our-project-card > .our-project-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    margin-top: 10px;
+}
+
+.our-project-card > .our-project-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    opacity: 70%;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+    color: #282938;
+}
+.our-project-card > .our-project-text a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+.our-project-footer-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.our-project-footer-heading p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    color: #282938;
+    margin-bottom: 36px;
+}
+.our-project-footer-heading a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    padding: 10px 22px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    color: #282938;
+}
+
+
+/* ====================our all project css end==================== */
+
+/*===========work page css end==========*/
+
+
+
+/*===========read case page css start==========*/
+
+
+/* ==================read-case css start================ */
+
+#read-case{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.read-case-content h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 80%;
+    color: #282938;
+}
+.read-case-content h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    width: 40%;
+}
+.read-case-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+    opacity: 80%;
+    color: #282938;
+}
+.read-case-border{
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsla(236, 17%, 19%, 0.6);
+}
+
+.case-detail > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 70%;
+}
+.case-detail > h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    display: inline;
+    cursor: pointer;
+}
+.top-space{
+    margin-top: 96px;
+}
+.project-about h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.project-about p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    margin-top: 10px;
+    color: #282938;
+}
+
+.project-about ul  li{
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #282938;
+    opacity: 90%;
+    list-style-type: square;
+    font-family: 'Poppins', sans-serif;
+}
+.project-about > img{
+    margin: 37px 0px;
+}
+
+
+.wedo-part{
+    margin-bottom: 100px;
+}
+.wedo-part h3{
+    margin-top: 30px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.wedo-part p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.wedo-part ul li{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    opacity: 94%;
+    color: #282938;
+    list-style: circle;
+    font-family: 'Poppins', sans-serif;
+}
+.keyword-part {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 30px 0px;
+}
+.keyword-part::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    opacity: 20%;
+    background-color: #282938;
+}
+.keyword-part::before{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    opacity: 20%;
+    background-color: #282938;
+}
+.keyword-part > a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #282938;
+    opacity: 70%;
+}
+.keyword-part > a:hover{
+    color: #2405F2;
+    transition: all linear .4s;
+}
+.read-case-bottom-part{
+    text-align: center;
+    margin-top: 80px;
+}
+.read-case-bottom-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    margin-bottom: 10px;
+}
+.read-case-bottom-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    width: 70%;
+    margin: 0 auto;
+    color: #282938;
+}
+.read-case-bottom-part a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    
+    background: #FCD980;
+    padding: 16px 48px;
+    border-radius: 41px;
+    color: #1B1C2B;
+}
+
+
+/* ==================read-case css end================*/
+
+
+/*===========blog page css start==========*/
+
+/* ====================blog css start============= */
+
+#blog-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blog-top-text{
+    text-align: center;
+}
+.blog-top-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.blog-top-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 87%;
+    color: #282938;
+}
+.blog-top-text p span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.blog-banner-content img{
+    margin-bottom: 57px;
+}
+.blog-banner-content p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #282938;
+    opacity: 80%;
+    width: 74%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.blog-banner-content a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2405F2;
+    margin-top: 30px;
+    border-bottom: 1px solid #28293825;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.blog-title-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+    text-align: center;
+}
+.blog-card > .blog-card-img{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.blog-card-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    background-color: rgba(37, 5, 242, 0.226);
+}
+.blog-card:hover .blog-card-overlay{
+    transform: scaleX(1);
+    transition: all linear .3s;
+}
+.blog-card-bottom-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 80%;
+}
+.blog-card-bottom-text h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.blog-card-bottom-text span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 80%;
+    display: block;
+    color: #282938;
+}
+.blog-card-bottom-text a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: inline-block;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+
+/* ====================blog css end============= */
+
+/*===========blog page css end============*/
+
+
+/*===========read blog page css start============*/
+
+
+/* ====================read blog css start============= */
+
+#blog-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blog-top-text{
+    text-align: center;
+}
+.blog-top-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.blog-top-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 87%;
+    color: #282938;
+}
+.blog-top-text p span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.blog-banner-content img{
+    margin-bottom: 57px;
+}
+
+.blog-story-title h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: #282938;   
+    text-align: left;
+}
+.blog-story-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justify;
+    opacity: 70%;
+    color: #282938;
+}
+.blog-story-title-text{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0em;
+    color: #282938;   
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.blog-story-title ul{
+    margin-top: 20px;
+}
+.blog-story-title ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    letter-spacing: 0em;
+    text-align: justified;
+    opacity: 80%;
+    list-style-type: disc;
+    color: #282938;
+}
+.blog-story-title-text-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justify;
+    opacity: 70%;
+    color: #282938;
+}
+
+/* ====================read blog css end============= */
+
+
+/*===========read blog page css end============*/
+
+
+
+/*===========Contact Us page css start============*/
+
+
+/* ======================contact part css start=============== */
+
+#contact-us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-us-title{
+    text-align: center;
+    width: 46%;
+    margin: 0 auto;
+}
+.contact-us-title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.contact-us-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 0em;
+    opacity: 80%;
+    color: #282938;
+}
+.login-body {
+    padding: 26px 80px;
+    background-color: #F4F6FC;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-item {
+    display: block;
+    height: 35px;
+    width: 85%;
+    padding-left: 8px;
+}
+.name-item{
+    width: 50%;
+}
+textarea{
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+button{
+    border-radius: 41px;
+    color: #fff;
+    background-color: #282938;
+    padding: 15px 51px;
+}
+.form-label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #282938;
+    
+}
+
+/* ======================contact part css end=============== */
+
+
+/*===========Contact Us page css end============*/
+
+
+/*===========privecy policy page css start============*/
+
+
+/*===========privecy policy section css start============*/
+
+#privecy-policy{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.privecy-policy-heading{
+	width: 46%;
+	margin: 0 auto;
+	text-align: center;
+}
+.privecy-policy-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #282938;
+}
+.privecy-policy-heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 0em;
+    opacity: 70%;
+    color: #282938;
+}
+.privecy-policy-body-text{
+    margin-top: 64px;
+}
+.privecy-policy-body-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 15px;
+    color: #282938;
+}
+.privecy-policy-body-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #282938;
+}
+.privecy-policy-body-text-item-tow{
+    margin-top: 48px;
+}
+.privecy-policy-body-text-item-tow h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+    margin-bottom: 25px;
+	letter-spacing: 0em;
+	color: #282938;
+}
+.privecy-policy-body-text-item-tow p {
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 80%;
+    text-align: justify;
+	color: #282938;
+}
+.privecy-policy-body-text-item-tow ul li{
+    list-style-type: disc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    opacity:80%;
+    color: #282829;
+}
+
+/*===========privecy policy section css end============*/
+
+/*===========privecy policy page css end============*/
+
+
+
+
+
+
+
+/* =====================paginations-item start=============== */
+
+.paginations-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ====================paginations-item end ===============*/
+
+/* ======================footer css start================= */
+
+#foter-item{
+    padding-top: 100px;
+    width: 100%;
+    background: #1C1E53;
+}
+.footer-discreption p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    width: 70%;
+    opacity: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-bottom-box{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FCD980;
+}
+.footer-bottom-box h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.footer-bottom-box p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+    opacity: 80%;
+}
+.footer-right-part h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-right-part p {
+    width: 74%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-right-bottom-icon{
+    margin-top: 20px;
+}
+.footer-right-bottom-icon img{
+    margin-right: 20px;
+}
+
+/* ======================footer css end================= */
+
+/* ======================copyright css start================= */
+
+.copy-right-menu{
+    height: 30px;
+}
+.copy-right-ul{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.copy-right-ul .copy-right-li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282938;
+}
+.copyright-left-head p{
+    margin: 10px 0px;
+}
+
+/* ======================copyright css end================= */
+
