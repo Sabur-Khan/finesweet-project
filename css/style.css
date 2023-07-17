@@ -89,6 +89,22 @@ img{
     color:#000000;
     text-decoration:none;
     }
+    .offcanvas-header {
+        background-color: #1C1E53;
+    }
+    .offcanvas-btn {
+        background-color: transparent;
+        opacity: 100;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 1.25rem;
+        padding: 0.1em 0.7em;
+        border: 1px solid #fff;
+    }
+    .offcanvas-btn:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .20rem #ffffff;
+    }
 /* =============navbar css end============ */
 
 /* =============banner css start============ */

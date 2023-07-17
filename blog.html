@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" srcset=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,18 +45,58 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
                 </li>
-            </ul><!-- 
-            <button>Contact us</button> -->
-            <div class="d-flex justify-content-center h-100">
+            </ul>
+            <!-- <div class="d-flex justify-content-center h-100">
                 <div class="searchbar">
                     <input class="search_input" type="text" name="" placeholder="Search...">
                     <a href="#" class="search_icon"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
   </nav>
 
+  <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="staticBackdropLabel">
+        <a class="navbar-brand" href="index.html"> 
+
+            <img src="images/logo.png" alt="logo" srcset=""> 
+
+        </a>
+    </h5>
+    <button type="button" class="offcanvas-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </button>
+    </div>
+    <div class="offcanvas-body">
+    <div>
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </div>
 <!------------------Navbar html end----------------->
 
 <!-------------------blog html start----------------->

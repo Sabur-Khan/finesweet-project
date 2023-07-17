@@ -1,13 +1,616 @@
-@media (min-width: 767.98px) and (max-width: 991.98px) {
-    
-}
-@media (min-width: 991.98px) and (max-width: 1199.98px) {
-    
-}
-@media (min-width: 1199.98px) and (max-width: 1399.98px) {
-    
-}
+@media (max-width: 575.98px){ 
+    .navbar-nav .nav-item .nav-link{
+        color: #171955;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        color: #ff0000;
+    }
+    .navbar-nav{
+        background-color: #ffffff;
+    }
+    .navbar {
+        background-color: #1C1E53;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 6px -1px, rgba(255, 255, 255, 0.06) 0px 2px 4px -1px;
+    }
+    .nv-toggle-btn{
+        border: 2px solid #fff;
+        color: white;
+    }
+    .navbar-collapse {
+        background-color: #171955;
+    }
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+/*------------navbar end---------- */
+    .topdiv {
+        margin-top: 31px;
+    }
+    .banner-left-item h2 {
+        font-size: 31px;
+        line-height: 49px;
+        text-align: center;
+    }
+    .banner-left-item p {
+        text-align: center;
+    }
+    .banner-view-btn {
+        height: 44px;
+        width: 115px;
+    }
+    .banner-view-btn a {
+        font-size: 14px;
+        line-height: 46px;
+    }
+    .view-pricing-btn {
+        margin-top: 59px;
+        margin-left: 36px;
+    }
+    .top-gap {
+        margin-top: 46px;
+    }
+    .work-heading h2 {
+        font-size: 43px;
+        text-align: center;
+    }
+    .work-heading p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .top-gaps {
+        margin-top: -97px;
+        margin-bottom: 34px;
+    }
+    .second-card-topgap{
+        margin-top: 28px;
+    }
+    #our-project {
+        margin-top: 58px;
+        margin-bottom: 47px;
+    }
+    .our-project-overlay {
+        padding-left: 15px;
+    }
+    .our-project-heading .our-project-first-head h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .our-project-heading .our-project-first-head a {
+        font-size: 22px;
+    }
+    .our-project-ovr-head h3 {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 11px;
+    }
+    .our-project-ovr-head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .project-bottom-gap{
+        margin-bottom: 18px;
+    }
+    .our-project-img-one-overlay {
+        padding: 0px 0px 0px 18px;
+    }
+    .our-project-img-one-overlay h4 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    #features-section {
+        padding-top: 10px;
+        padding-bottom: 48px;
+    }
+    .features-three-item-top-gap{
+        margin-top: 23px;
+    }
+    .features-heading-two h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .features-card-detail h6 {
+        font-size: 19px;
+    }
+    .features-top-gap{
+        margin-top: 20px;
+    }
+    #what-sayclaint {
+        padding-top: 40px;
+        padding-bottom: 36px;
+    }
+    .sayclint-left-cont h3 {
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .sayclint-left-cont p {
+        margin-top: 22px;
+        text-align: center;
+    }
+    .sayclint-right-cont-card h5 {
+        font-size: 18px;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .clint-icons {
+        width: 70%;
+        margin: 12px auto;
+    }
+    #frequently-section {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .frequently-left-item h3 {
+        font-size: 31px;
+        text-align: center;
+    }
+    .frequently-left-item p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .accordion-titles {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .accordion-p p {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: justify;
+    }
+    .frequently-login-overlay {
+        padding: 4px;
+    }
+    .frequently-login-overlay h1 {
+        font-size: 29px;
+        line-height: 41px;
+        text-align: center;
+        margin-top: 14px;
+    }
+    .frequently-login-overlay p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        opacity: 70%;
+        text-align: center;
+        padding: 0px;
+    }
+    .frequently-login-left-item {
+        width: 100%;
+    }
+    .frequently-login-right-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .frequently-login-right-item .frequently-login-right-heading {
+        font-size: 31px;
+        line-height: 73px;
+        text-align: center;
+    }
+    .frequently-login-right-item .frequently-login-right-pera {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    #our-blog {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .our-blog-head h2 {
+        text-align: center;
+    }
+    .our-blog-main-img {
+        margin-top: 30px;
+    }
+    #foter-item {
+        padding-top: 35px;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-discreption p {
+        font-size: 19px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bottom-box {
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .footer-bottom-box h5 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .footer-bottom-box h5 {
+        line-height: 60px;
+        text-align: center;
+    }
+    .footer-right-part h2 {
+        text-align: center;
+        margin-top: 39px;
+    }
+    .footer-right-part p {
+        width: 100%;
+        margin-top: 17px;
+        font-size: 19px;
+        text-align: justify;
+        margin-bottom: 35px;
+    }
+    .footer-right-bottom-icon {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .copyright-left-head p {
+        margin: 17px 0px;
+        text-align: center;
+    }
+    .copy-right-menu {
+        height: 43px;
+    }
+    .copy-right-ul {
+        margin: 3px 0px;
+        padding: 0;
+    }
+    .copy-right-ul .copy-right-li a {
+        font-size: 13px;
+        text-align: center;
+    }
 
+
+    .navbar-toggler{
+        border: 1px solid #ffff ;
+        color: white;
+    }
+    .about-us-left h1 {
+        font-size: 37px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .about-us-left p {
+        margin-top: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-us-left span {
+        font-size: 14px;
+        text-align: justify;
+    }
+    #About-us {
+	padding-top: 25px;
+	padding-bottom: 25px;
+    }
+    .who-weare-left-item{
+        text-align: center;
+    }
+    .who-weare-left-item h3 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .who-weare-left-item p {
+        line-height: 24px;
+        text-align: justify;
+    }
+    .process-follow-heading h2 {
+        text-align: center;
+        font-size: 48px;
+        line-height: 65px;
+    }
+    #who-we-are {
+        padding-bottom: 29px;
+    }
+    #our-mission {
+        padding-bottom: 40px;
+        padding-top: 26px;
+    }
+    .our-mission-left{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .our-mission-left h3 {
+        font-size: 24px;
+        line-height: 53px;
+        text-align: center;
+    }
+    .our-mission-left p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+    .our-mission-left span {
+        line-height: 13px;
+        text-align: center;
+    }
+    .our-mission-left h3 {
+        line-height: 27px;
+        text-align: center;
+    }
+    .working-benefits-head {
+        width: 100%;
+    }
+    .working-benefits-head h2 {
+        margin-top: 36px;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .working-benefits-sub-company h3 {
+        text-align: center;
+    }
+    .working-benefits-sub-company p {
+        text-align: center;
+    }
+    .working-benefits-sub-company-logo{
+        margin-top: 30px;
+    }
+    #working-benefits {
+        padding-bottom: 50px;
+    }
+    .meet-our-team-heading h2 {
+        padding-top: 53px;
+    }
+    .team-title-text h6 {
+        line-height: 62px;
+    }
+    .see-more-button button {
+        color: black;
+    }
+    #meet-our-team {
+        padding-bottom: 37px;
+    }
+    .page-item:first-child .page-link {
+        font-size: 15px;
+    }
+    /* ----------pricing page css start */
+    .pricing-card-head-text {
+        width: 100%;
+    }
+    #pricing-plans {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricing-card-head-text h2 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .pricing-card-one .pricing-card-detail-text a {
+        font-size: 15px;
+    }
+
+   
+    #use-client-first {
+        padding-top: 20px;
+        padding-bottom: 42px;
+    }
+    .about-us-left h3 {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+    }
+    #free-revision-rounds {
+        padding-bottom: 32px;
+        padding-top: 32px;
+    }
+    #support {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .about-us-right img{
+        margin-top: 20px;
+    }
+    #quick-delivery {
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+
+   
+    #our-work {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
+    .our-work-content {
+        width: 100%;
+    }
+    .our-work-content > .our-work-icon-part{
+        width: 60%;
+    }
+    .our-work-content span {
+        font-size: 24px;
+    }
+    .our-work-content h2 {
+        font-size: 33px;
+        line-height: 51px;
+    }
+    .our-work-content p {
+        font-size: 17px;
+        line-height: 31px;
+        text-align: justify;
+    }
+    #our-all-project {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .our-project-menu-item {
+        width: 100%;
+    }
+    .our-project-menu-item a {
+        font-size: 14px;
+    }
+    .our-project-card > .our-project-text p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 33px;
+    }
+    .our-project-footer-heading h2 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .our-project-footer-heading p {
+        font-size: 17px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .footer-bottom-box p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    
+    #read-case {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .read-case-content h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .read-case-content h2 {
+        font-size: 28px;
+        line-height: 43px;
+        text-align: center;
+        width: 100%;
+    }
+    .read-case-content p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .case-detail{
+        text-align: center;
+    }
+    .case-detail > p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .case-detail > h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .top-space{
+        margin-top: 41px;
+    }
+    .project-about h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .project-about p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .project-about ul li {
+        font-size: 16px;
+    }
+    .project-about > img {
+        margin: 10px 0px;
+    }
+    .project-about > img {
+        margin: 10px 0px;
+    }
+    .wedo-part h3 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .wedo-part p {
+        text-align: justify;
+    }
+    .keyword-part {
+        width: 100%;
+        padding: 22px 0px;
+    }
+    .keyword-part > a {
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 0em;
+        padding: 3px 5px;
+    }
+    .read-case-bottom-part {
+        margin-top: 34px;
+    }
+    .read-case-bottom-part h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .read-case-bottom-part p {
+        font-size: 16px;
+        width: 100%;
+        text-align: justify;
+    }
+
+
+    #blog-part {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .blog-top-text h2 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .blog-top-text h2 {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0em;
+        color: #282938;
+    }
+    .blog-top-text p {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .blog-banner-content img {
+        margin-bottom: 25px;
+    }
+    .blog-banner-content p {
+        font-size: 17px;
+        width: 100%;
+        text-align: justify;
+    }
+    .blog-banner-content a {
+        margin-top: 7px;
+    }
+    .blog-title-text h2 {
+        font-size: 40px;
+        line-height: 0px;
+    }
+    .blog-card-bottom-text p {
+        line-height: 30px;
+    }
+    .blog-card-bottom-text h6 {
+        font-size: 20px;
+    }
+
+
+    .blog-top-text h2 {
+        font-size: 21px;
+    }
+    .blog-story-title h3 {
+        line-height: 33px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    #contact-us {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .contact-us-title {
+        width: 100%;
+    }
+    .contact-us-title h2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .login-body {
+        padding: 10px;
+    }
+    .name-item {
+        width: 100%;
+    }
+    .input-item{
+        width: 100%;
+    }
+}
 @media (min-width: 575.98px) and (max-width: 767.98px) { 
     .navbar-nav{
         background-color: #ffffff;
@@ -668,614 +1271,18 @@
     .name-item {
         width: 100%;
     }
+    .input-item{
+        width: 100%;
+    }
 }
-@media (max-width: 575.98px){ 
-    .navbar-nav .nav-item .nav-link{
-        color: #171955;
-    }
-    .navbar-nav .nav-item .nav-link:hover{
-        color: #ff0000;
-    }
-    .navbar-nav{
-        background-color: #ffffff;
-    }
-    .navbar {
-        background-color: #1C1E53;
-        box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 6px -1px, rgba(255, 255, 255, 0.06) 0px 2px 4px -1px;
-    }
-    .nv-toggle-btn{
-        border: 2px solid #fff;
-        color: white;
-    }
-    .navbar-collapse {
-        background-color: #171955;
-    }
-    .navbar-nav .nav-item {
-        text-align: center;
-    }
-/*------------navbar end---------- */
-    .topdiv {
-        margin-top: 31px;
-    }
-    .banner-left-item h2 {
-        font-size: 31px;
-        line-height: 49px;
-        text-align: center;
-    }
-    .banner-left-item p {
-        text-align: center;
-    }
-    .banner-view-btn {
-        height: 44px;
-        width: 115px;
-    }
-    .banner-view-btn a {
-        font-size: 14px;
-        line-height: 46px;
-    }
-    .view-pricing-btn {
-        margin-top: 59px;
-        margin-left: 36px;
-    }
-    .top-gap {
-        margin-top: 46px;
-    }
-    .work-heading h2 {
-        font-size: 43px;
-        text-align: center;
-    }
-    .work-heading p {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 6px;
-    }
-    .top-gaps {
-        margin-top: -97px;
-        margin-bottom: 34px;
-    }
-    .second-card-topgap{
-        margin-top: 28px;
-    }
-    #our-project {
-        margin-top: 58px;
-        margin-bottom: 47px;
-    }
-    .our-project-overlay {
-        padding-left: 15px;
-    }
-    .our-project-heading .our-project-first-head h2 {
-        font-size: 28px;
-        line-height: 35px;
-    }
-    .our-project-heading .our-project-first-head a {
-        font-size: 22px;
-    }
-    .our-project-ovr-head h3 {
-        font-size: 14px;
-        line-height: 19px;
-        margin-top: 11px;
-    }
-    .our-project-ovr-head p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .project-bottom-gap{
-        margin-bottom: 18px;
-    }
-    .our-project-img-one-overlay {
-        padding: 0px 0px 0px 18px;
-    }
-    .our-project-img-one-overlay h4 {
-        font-size: 28px;
-        line-height: 44px;
-    }
-    #features-section {
-        padding-top: 10px;
-        padding-bottom: 48px;
-    }
-    .features-three-item-top-gap{
-        margin-top: 23px;
-    }
-    .features-heading-two h2 {
-        font-size: 18px;
-        line-height: 32px;
-    }
-    .features-card-detail h6 {
-        font-size: 19px;
-    }
-    .features-top-gap{
-        margin-top: 20px;
-    }
-    #what-sayclaint {
-        padding-top: 40px;
-        padding-bottom: 36px;
-    }
-    .sayclint-left-cont h3 {
-        font-size: 35px;
-        line-height: 45px;
-        text-align: center;
-    }
-    .sayclint-left-cont p {
-        margin-top: 22px;
-        text-align: center;
-    }
-    .sayclint-right-cont-card h5 {
-        font-size: 18px;
-        margin-top: 14px;
-        text-align: center;
-    }
-    .clint-icons {
-        width: 70%;
-        margin: 12px auto;
-    }
-    #frequently-section {
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
-    .frequently-left-item h3 {
-        font-size: 31px;
-        text-align: center;
-    }
-    .frequently-left-item p {
-        font-size: 16px;
-        text-align: center;
-    }
-    .accordion-titles {
-        font-size: 20px;
-        line-height: 31px;
-    }
-    .accordion-p p {
-        font-size: 15px;
-        line-height: 26px;
-        text-align: justify;
-    }
-    .frequently-login-overlay {
-        padding: 4px;
-    }
-    .frequently-login-overlay h1 {
-        font-size: 29px;
-        line-height: 41px;
-        text-align: center;
-        margin-top: 14px;
-    }
-    .frequently-login-overlay p {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 29px;
-        opacity: 70%;
-        text-align: center;
-        padding: 0px;
-    }
-    .frequently-login-left-item {
-        width: 100%;
-    }
-    .frequently-login-right-item {
-        width: 100%;
-        padding: 15px;
-    }
-    .frequently-login-right-item .frequently-login-right-heading {
-        font-size: 31px;
-        line-height: 73px;
-        text-align: center;
-    }
-    .frequently-login-right-item .frequently-login-right-pera {
-        font-size: 18px;
-        line-height: 25px;
-        text-align: justify;
-    }
-    #our-blog {
-        padding-top: 21px;
-        padding-bottom: 21px;
-    }
-    .our-blog-head h2 {
-        text-align: center;
-    }
-    .our-blog-main-img {
-        margin-top: 30px;
-    }
-    #foter-item {
-        padding-top: 35px;
-    }
-    .footer-logo{
-        text-align: center;
-    }
-    .footer-discreption p {
-        font-size: 19px;
-        line-height: 28px;
-        text-align: center;
-        width: 100%;
-    }
-    .footer-bottom-box {
-        padding: 5px;
-        flex-wrap: wrap;
-    }
-    .footer-bottom-box h5 {
-        font-size: 25px;
-        text-align: center;
-    }
-    .footer-bottom-box h5 {
-        line-height: 60px;
-        text-align: center;
-    }
-    .footer-right-part h2 {
-        text-align: center;
-        margin-top: 39px;
-    }
-    .footer-right-part p {
-        width: 100%;
-        margin-top: 17px;
-        font-size: 19px;
-        text-align: justify;
-        margin-bottom: 35px;
-    }
-    .footer-right-bottom-icon {
-        text-align: center;
-        margin-bottom: 24px;
-    }
-    .copyright-left-head p {
-        margin: 17px 0px;
-        text-align: center;
-    }
-    .copy-right-menu {
-        height: 43px;
-    }
-    .copy-right-ul {
-        margin: 3px 0px;
-        padding: 0;
-    }
-    .copy-right-ul .copy-right-li a {
-        font-size: 13px;
-        text-align: center;
-    }
-
-
-    .navbar-toggler{
-        border: 1px solid #ffff ;
-        color: white;
-    }
-    .about-us-left h1 {
-        font-size: 37px;
-        line-height: 50px;
-        text-align: center;
-    }
-    .about-us-left p {
-        margin-top: 25px;
-        font-size: 18px;
-        text-align: center;
-    }
-    .about-us-left span {
-        font-size: 14px;
-        text-align: justify;
-    }
-    #About-us {
-	padding-top: 25px;
-	padding-bottom: 25px;
-    }
-    .who-weare-left-item{
-        text-align: center;
-    }
-    .who-weare-left-item h3 {
-        font-size: 37px;
-        text-align: center;
-    }
-    .who-weare-left-item p {
-        line-height: 24px;
-        text-align: justify;
-    }
-    .process-follow-heading h2 {
-        text-align: center;
-        font-size: 48px;
-        line-height: 65px;
-    }
-    #who-we-are {
-        padding-bottom: 29px;
-    }
-    #our-mission {
-        padding-bottom: 40px;
-        padding-top: 26px;
-    }
-    .our-mission-left{
-        text-align: center;
-        margin-top: 30px;
-    }
-    .our-mission-left h3 {
-        font-size: 24px;
-        line-height: 53px;
-        text-align: center;
-    }
-    .our-mission-left p {
-        width: 100%;
-        font-size: 16px;
-        line-height: 24px;
-        padding-bottom: 20px;
-        text-align: justify;
-    }
-    .our-mission-left span {
-        line-height: 13px;
-        text-align: center;
-    }
-    .our-mission-left h3 {
-        line-height: 27px;
-        text-align: center;
-    }
-    .working-benefits-head {
-        width: 100%;
-    }
-    .working-benefits-head h2 {
-        margin-top: 36px;
-        font-size: 26px;
-        line-height: 40px;
-    }
-    .working-benefits-sub-company h3 {
-        text-align: center;
-    }
-    .working-benefits-sub-company p {
-        text-align: center;
-    }
-    .working-benefits-sub-company-logo{
-        margin-top: 30px;
-    }
-    #working-benefits {
-        padding-bottom: 50px;
-    }
-    .meet-our-team-heading h2 {
-        padding-top: 53px;
-    }
-    .team-title-text h6 {
-        line-height: 62px;
-    }
-    .see-more-button button {
-        color: black;
-    }
-    #meet-our-team {
-        padding-bottom: 37px;
-    }
-    .page-item:first-child .page-link {
-        font-size: 15px;
-    }
-    /* ----------pricing page css start */
-    .pricing-card-head-text {
-        width: 100%;
-    }
-    #pricing-plans {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .pricing-card-head-text h2 {
-        font-size: 34px;
-        line-height: 46px;
-    }
-    .pricing-card-one .pricing-card-detail-text a {
-        font-size: 15px;
-    }
-
-   
-    #use-client-first {
-        padding-top: 20px;
-        padding-bottom: 42px;
-    }
-    .about-us-left h3 {
-        font-size: 25px;
-        line-height: 35px;
-        text-align: center;
-    }
-    #free-revision-rounds {
-        padding-bottom: 32px;
-        padding-top: 32px;
-    }
-    #support {
-        padding-bottom: 30px;
-        padding-top: 30px;
-    }
-    .about-us-right img{
-        margin-top: 20px;
-    }
-    #quick-delivery {
-        padding-bottom: 40px;
-        padding-top: 20px;
-    }
-
-   
-    #our-work {
-        padding-top: 41px;
-        padding-bottom: 41px;
-    }
-    .our-work-content {
-        width: 100%;
-    }
-    .our-work-content > .our-work-icon-part{
-        width: 60%;
-    }
-    .our-work-content span {
-        font-size: 24px;
-    }
-    .our-work-content h2 {
-        font-size: 33px;
-        line-height: 51px;
-    }
-    .our-work-content p {
-        font-size: 17px;
-        line-height: 31px;
-        text-align: justify;
-    }
-    #our-all-project {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .our-project-menu-item {
-        width: 100%;
-    }
-    .our-project-menu-item a {
-        font-size: 14px;
-    }
-    .our-project-card > .our-project-text p {
-        font-size: 15px;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 33px;
-    }
-    .our-project-footer-heading h2 {
-        font-size: 28px;
-        line-height: 44px;
-    }
-    .our-project-footer-heading p {
-        font-size: 17px;
-        line-height: 25px;
-        text-align: justify;
-    }
-    .footer-bottom-box p {
-        font-size: 14px;
-        text-align: center;
-    }
-
+@media (min-width: 767.98px) and (max-width: 991.98px) {
     
-    #read-case {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .read-case-content h6 {
-        font-size: 20px;
-        text-align: center;
-    }
-    .read-case-content h2 {
-        font-size: 28px;
-        line-height: 43px;
-        text-align: center;
-        width: 100%;
-    }
-    .read-case-content p {
-        font-size: 16px;
-        text-align: justify;
-    }
-    .case-detail{
-        text-align: center;
-    }
-    .case-detail > p {
-        font-size: 14px;
-        text-align: center;
-    }
-    .case-detail > h6 {
-        font-size: 20px;
-        text-align: center;
-    }
-    .top-space{
-        margin-top: 41px;
-    }
-    .project-about h3 {
-        font-size: 35px;
-        text-align: center;
-    }
-    .project-about p {
-        font-size: 18px;
-        text-align: justify;
-    }
-    .project-about ul li {
-        font-size: 16px;
-    }
-    .project-about > img {
-        margin: 10px 0px;
-    }
-    .project-about > img {
-        margin: 10px 0px;
-    }
-    .wedo-part h3 {
-        font-size: 44px;
-        text-align: center;
-    }
-    .wedo-part p {
-        text-align: justify;
-    }
-    .keyword-part {
-        width: 100%;
-        padding: 22px 0px;
-    }
-    .keyword-part > a {
-        font-size: 13px;
-        line-height: 28px;
-        letter-spacing: 0em;
-        padding: 3px 5px;
-    }
-    .read-case-bottom-part {
-        margin-top: 34px;
-    }
-    .read-case-bottom-part h2 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    .read-case-bottom-part p {
-        font-size: 16px;
-        width: 100%;
-        text-align: justify;
-    }
-
-
-    #blog-part {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .blog-top-text h2 {
-        font-size: 21px;
-        line-height: 32px;
-    }
-    .blog-top-text h2 {
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 32px;
-        letter-spacing: 0em;
-        color: #282938;
-    }
-    .blog-top-text p {
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .blog-banner-content img {
-        margin-bottom: 25px;
-    }
-    .blog-banner-content p {
-        font-size: 17px;
-        width: 100%;
-        text-align: justify;
-    }
-    .blog-banner-content a {
-        margin-top: 7px;
-    }
-    .blog-title-text h2 {
-        font-size: 40px;
-        line-height: 0px;
-    }
-    .blog-card-bottom-text p {
-        line-height: 30px;
-    }
-    .blog-card-bottom-text h6 {
-        font-size: 20px;
-    }
-
-
-    .blog-top-text h2 {
-        font-size: 21px;
-    }
-    .blog-story-title h3 {
-        line-height: 33px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-
-    #contact-us {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .contact-us-title {
-        width: 100%;
-    }
-    .contact-us-title h2 {
-        font-size: 30px;
-        line-height: 46px;
-    }
-    .login-body {
-        padding: 10px;
-    }
-    .name-item {
-        width: 100%;
-    }
 }
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    
+}
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+    
+}
+
+
